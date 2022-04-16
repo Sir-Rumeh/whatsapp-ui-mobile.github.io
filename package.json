@@ -4,5 +4,10 @@
 	"description": "whatsapp ui",
 	"main": "index.js",
 	"author": "Sir_Rumeh",
-	"license": "ISC"
+	"license": "ISC",
+	"scripts": {
+    	  "predeploy": "npm run build",
+    	  "deploy": "gh-pages -d build",
+    	  "start": "node ./bin/www"
+  	}
 }
