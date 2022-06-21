@@ -1,0 +1,13 @@
+{
+	"name": "whatsapp ui",
+	"version": "1.0.0",
+	"description": "whatsapp ui",
+	"main": "index.js",
+	"author": "Sir_Rumeh",
+	"license": "ISC",
+	"scripts": {
+    	  "predeploy": "npm run build",
+    	  "deploy": "gh-pages -d build",
+    	  "start": "node your-script.js"
+  	}
+}
